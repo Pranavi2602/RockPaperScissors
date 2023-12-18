@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    border: 0px;
+    background-color:black;
+}
+.head{
+    color: aqua;
+    text-shadow: 2px 2px 3px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top:20px ;
+}
+.fb{
+    background-image: url("rock.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+button{
+    height: 200px;
+    width: 200px;
+    border: 3px solid aqua;
+    margin: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.first{
+   text-align: center;
+   padding-top:100px;
+}
+.headf{
+    color: aqua;
+    padding-top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+    font-family: sans-serif;
+    
+}
+.fs{
+    background-image: url("paper.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+.ft{
+    background-image: url("scissors.png");
+    background-position: center;
+    background-size: cover;    
+}
+.reset{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.rb{
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.p-moves{
+    color: aqua;
+    text-align: center;
+    font-size: 25px;
+}
+.move{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+
+    * {
+        margin: 0px;
+        border: 0px;
+        background-color: black;
+    }
+    
+    .head {
+        color: aqua;
+        text-shadow: 2px 2px 3px white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .head {
+        font-size: 24px; /* Adjusted font size for the header */
+    }
+
+    button {
+        height: 150px; /* Adjusted button size */
+        width: 150px; /* Adjusted button size */
+        margin: 15px; /* Adjusted margin for buttons */
+    }
+
+    .first {
+        padding-top: 50px; /* Adjusted padding for the section */
+    }
+
+    .headf {
+        padding-top: 100px; /* Adjusted padding for the section */
+        font-size: 20px; /* Adjusted font size for the section */
+    }
+
+    /* Other adjustments as needed for smaller screens */
+    /* For example, reducing padding, margins, or font sizes */
+}
